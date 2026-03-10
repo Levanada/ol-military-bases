@@ -110,6 +110,19 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\nam-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\nam-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\nam-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
@@ -224,6 +237,19 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\sam-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\sam-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\sam-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
@@ -338,6 +364,19 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\cam-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\cam-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\cam-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
@@ -452,6 +491,19 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\eur-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\eur-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\eur-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
@@ -566,6 +618,19 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\afr-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\afr-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\afr-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
@@ -680,6 +745,19 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\asi-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\asi-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\asi-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
@@ -794,11 +872,24 @@
         ],
         "success": false,
         "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\aoc-military.osm.pbf"
+      },
+      {
+        "type": "military",
+        "output_file": "./scripts/osm_extract/output\\aoc-military.osm.pbf",
+        "tileset": "./scripts/osm_extract/output\\aoc-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "[WinError 2] The system cannot find the file specified"
       }
     ]
   },
   "meta": {
-    "generated_at": "2026-03-10T21:22:54.777208Z",
+    "generated_at": "2026-03-10T21:49:07.521034Z",
     "base_url": "https://download.geofabrik.de",
     "download_dir": "./scripts/osm_extract/data",
     "output_dir": "./scripts/osm_extract/output"
