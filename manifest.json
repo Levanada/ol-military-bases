@@ -231,6 +231,19 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/nam-military.osm.pbf",
+        "tileset": "/app/output/nam-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/nam-military.mbtiles.geojson.tmp"
       }
     ]
   },
@@ -466,6 +479,19 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/sam-military.osm.pbf",
+        "tileset": "/app/output/sam-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/sam-military.mbtiles.geojson.tmp"
       }
     ]
   },
@@ -701,6 +727,19 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/cam-military.osm.pbf",
+        "tileset": "/app/output/cam-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/cam-military.mbtiles.geojson.tmp"
       }
     ]
   },
@@ -936,6 +975,19 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/eur-military.osm.pbf",
+        "tileset": "/app/output/eur-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/eur-military.mbtiles.geojson.tmp"
       }
     ]
   },
@@ -1171,6 +1223,19 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/afr-military.osm.pbf",
+        "tileset": "/app/output/afr-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/afr-military.mbtiles.geojson.tmp"
       }
     ]
   },
@@ -1406,6 +1471,19 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/asi-military.osm.pbf",
+        "tileset": "/app/output/asi-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/asi-military.mbtiles.geojson.tmp"
       }
     ]
   },
@@ -1641,11 +1719,24 @@
             }
           }
         }
+      },
+      {
+        "type": "military",
+        "output_file": "/app/output/aoc-military.osm.pbf",
+        "tileset": "/app/output/aoc-military.mbtiles",
+        "filter_tags": [
+          "w/landuse=military",
+          "n/military",
+          "w/military",
+          "r/military"
+        ],
+        "success": false,
+        "error": "tippecanoe failed with code 1 for /app/output/aoc-military.mbtiles.geojson.tmp"
       }
     ]
   },
   "meta": {
-    "generated_at": "2026-03-11T05:09:26.522888Z",
+    "generated_at": "2026-03-11T15:05:02.805070Z",
     "base_url": "https://download.geofabrik.de",
     "download_dir": "/app/data",
     "output_dir": "/app/output"
