@@ -2,11 +2,11 @@
   "nam": {
     "name": "North America",
     "downloaded": true,
-    "source_pbf": "/app/data/north-america-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\north-america-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\nam-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\nam-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -16,10 +16,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\nam-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\nam-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 2860331
+            "size": 2866325
           },
           "header": {
             "boxes": [
@@ -34,12 +34,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
+              "osmosis_replication_sequence_number": "4734",
+              "osmosis_replication_timestamp": "2026-03-21T21:21:30Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
+              "timestamp": "2026-03-21T21:21:30Z"
             }
           },
           "data": {
@@ -51,16 +51,16 @@
             ],
             "timestamp": {
               "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
+              "last": "2026-03-21T12:42:17Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "ac08a32f",
+            "crc32": "ea7bdbd4",
             "count": {
               "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
+              "nodes": 336979,
+              "ways": 21954,
+              "relations": 592
             },
             "minid": {
               "changesets": 0,
@@ -70,14 +70,14 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
+              "nodes": 13666683930,
+              "ways": 1489654760,
+              "relations": 20312408
             },
             "buffers": {
-              "count": 509,
-              "size": 31796376,
-              "capacity": 33357824
+              "count": 510,
+              "size": 31870176,
+              "capacity": 33423360
             },
             "metadata": {
               "all_objects": {
@@ -101,7 +101,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\nam-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\nam-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -109,647 +108,18 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\nam-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\nam-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\nam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "tileset": "/app/output/nam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/nam-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "tileset": "/app/output/nam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/nam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 2860331
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                5.57228,
-                180.0,
-                85.04177
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              14.6429841,
-              179.1797786,
-              82.5285906
-            ],
-            "timestamp": {
-              "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "ac08a32f",
-            "count": {
-              "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 18546149,
-              "ways": 4673219,
-              "relations": 89605
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
-            },
-            "buffers": {
-              "count": 468,
-              "size": 28926824,
-              "capacity": 30670848
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "tileset": "/app/output/nam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/nam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "tileset": "/app/output/nam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/nam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/nam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 2860331
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                5.57228,
-                180.0,
-                85.04177
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              14.6429841,
-              179.1797786,
-              82.5285906
-            ],
-            "timestamp": {
-              "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "ac08a32f",
-            "count": {
-              "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 18546149,
-              "ways": 4673219,
-              "relations": 89605
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
-            },
-            "buffers": {
-              "count": 468,
-              "size": 28926824,
-              "capacity": 30670848
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/nam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 2860331
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                5.57228,
-                180.0,
-                85.04177
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              14.6429841,
-              179.1797786,
-              82.5285906
-            ],
-            "timestamp": {
-              "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "ac08a32f",
-            "count": {
-              "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 18546149,
-              "ways": 4673219,
-              "relations": 89605
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
-            },
-            "buffers": {
-              "count": 468,
-              "size": 28926824,
-              "capacity": 30670848
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/nam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 2860331
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                5.57228,
-                180.0,
-                85.04177
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              14.6429841,
-              179.1797786,
-              82.5285906
-            ],
-            "timestamp": {
-              "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "ac08a32f",
-            "count": {
-              "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 18546149,
-              "ways": 4673219,
-              "relations": 89605
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
-            },
-            "buffers": {
-              "count": 468,
-              "size": 28926824,
-              "capacity": 30670848
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/nam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 2860331
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                5.57228,
-                180.0,
-                85.04177
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              14.6429841,
-              179.1797786,
-              82.5285906
-            ],
-            "timestamp": {
-              "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "ac08a32f",
-            "count": {
-              "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 18546149,
-              "ways": 4673219,
-              "relations": 89605
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
-            },
-            "buffers": {
-              "count": 468,
-              "size": 28926824,
-              "capacity": 30670848
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/nam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/nam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/nam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 2860331
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                5.57228,
-                180.0,
-                85.04177
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/north-america-updates",
-              "osmosis_replication_sequence_number": "4720",
-              "osmosis_replication_timestamp": "2026-03-07T21:21:16Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-07T21:21:16Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              14.6429841,
-              179.1797786,
-              82.5285906
-            ],
-            "timestamp": {
-              "first": "2007-05-27T16:05:28Z",
-              "last": "2026-03-07T19:30:48Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "ac08a32f",
-            "count": {
-              "changesets": 0,
-              "nodes": 336278,
-              "ways": 21826,
-              "relations": 590
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 18546149,
-              "ways": 4673219,
-              "relations": 89605
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13625480737,
-              "ways": 1486314905,
-              "relations": 20169381
-            },
-            "buffers": {
-              "count": 468,
-              "size": 28926824,
-              "capacity": 30670848
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
   "sam": {
     "name": "South America",
     "downloaded": true,
-    "source_pbf": "/app/data/south-america-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\south-america-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\sam-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\sam-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -759,10 +129,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\sam-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\sam-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 835097
+            "size": 844546
           },
           "header": {
             "boxes": [
@@ -777,12 +147,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
+              "osmosis_replication_sequence_number": "4735",
+              "osmosis_replication_timestamp": "2026-03-21T21:21:30Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
+              "timestamp": "2026-03-21T21:21:30Z"
             }
           },
           "data": {
@@ -794,16 +164,16 @@
             ],
             "timestamp": {
               "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
+              "last": "2026-03-21T19:02:57Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "8bf07265",
+            "crc32": "f454bc8c",
             "count": {
               "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
+              "nodes": 80058,
+              "ways": 5417,
+              "relations": 115
             },
             "minid": {
               "changesets": 0,
@@ -813,14 +183,14 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
+              "nodes": 13666192825,
+              "ways": 1491144380,
+              "relations": 20343779
             },
             "buffers": {
-              "count": 117,
-              "size": 7359104,
-              "capacity": 7667712
+              "count": 119,
+              "size": 7437360,
+              "capacity": 7798784
             },
             "metadata": {
               "all_objects": {
@@ -844,7 +214,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\sam-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\sam-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -852,647 +221,18 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\sam-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\sam-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\sam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "tileset": "/app/output/sam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/sam-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "tileset": "/app/output/sam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/sam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 835097
-          },
-          "header": {
-            "boxes": [
-              [
-                -122.961875,
-                -60.30883,
-                -23.24401,
-                16.9126559
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -109.4390946,
-              -56.5212643,
-              -29.3083933,
-              15.6809354
-            ],
-            "timestamp": {
-              "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "8bf07265",
-            "count": {
-              "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 30353161,
-              "ways": 8895767,
-              "relations": 410476
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
-            },
-            "buffers": {
-              "count": 106,
-              "size": 6679040,
-              "capacity": 6946816
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "tileset": "/app/output/sam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/sam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "tileset": "/app/output/sam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/sam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/sam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 835097
-          },
-          "header": {
-            "boxes": [
-              [
-                -122.961875,
-                -60.30883,
-                -23.24401,
-                16.9126559
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -109.4390946,
-              -56.5212643,
-              -29.3083933,
-              15.6809354
-            ],
-            "timestamp": {
-              "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "8bf07265",
-            "count": {
-              "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 30353161,
-              "ways": 8895767,
-              "relations": 410476
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
-            },
-            "buffers": {
-              "count": 106,
-              "size": 6679040,
-              "capacity": 6946816
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/sam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 835097
-          },
-          "header": {
-            "boxes": [
-              [
-                -122.961875,
-                -60.30883,
-                -23.24401,
-                16.9126559
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -109.4390946,
-              -56.5212643,
-              -29.3083933,
-              15.6809354
-            ],
-            "timestamp": {
-              "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "8bf07265",
-            "count": {
-              "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 30353161,
-              "ways": 8895767,
-              "relations": 410476
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
-            },
-            "buffers": {
-              "count": 106,
-              "size": 6679040,
-              "capacity": 6946816
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/sam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 835097
-          },
-          "header": {
-            "boxes": [
-              [
-                -122.961875,
-                -60.30883,
-                -23.24401,
-                16.9126559
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -109.4390946,
-              -56.5212643,
-              -29.3083933,
-              15.6809354
-            ],
-            "timestamp": {
-              "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "8bf07265",
-            "count": {
-              "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 30353161,
-              "ways": 8895767,
-              "relations": 410476
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
-            },
-            "buffers": {
-              "count": 106,
-              "size": 6679040,
-              "capacity": 6946816
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/sam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 835097
-          },
-          "header": {
-            "boxes": [
-              [
-                -122.961875,
-                -60.30883,
-                -23.24401,
-                16.9126559
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -109.4390946,
-              -56.5212643,
-              -29.3083933,
-              15.6809354
-            ],
-            "timestamp": {
-              "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "8bf07265",
-            "count": {
-              "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 30353161,
-              "ways": 8895767,
-              "relations": 410476
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
-            },
-            "buffers": {
-              "count": 106,
-              "size": 6679040,
-              "capacity": 6946816
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/sam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/sam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/sam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 835097
-          },
-          "header": {
-            "boxes": [
-              [
-                -122.961875,
-                -60.30883,
-                -23.24401,
-                16.9126559
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/south-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -109.4390946,
-              -56.5212643,
-              -29.3083933,
-              15.6809354
-            ],
-            "timestamp": {
-              "first": "2007-11-08T21:24:17Z",
-              "last": "2026-03-08T21:14:02Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "8bf07265",
-            "count": {
-              "changesets": 0,
-              "nodes": 79544,
-              "ways": 5356,
-              "relations": 108
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 30353161,
-              "ways": 8895767,
-              "relations": 410476
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13628610757,
-              "ways": 1486546955,
-              "relations": 20018169
-            },
-            "buffers": {
-              "count": 106,
-              "size": 6679040,
-              "capacity": 6946816
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
   "cam": {
     "name": "Central America",
     "downloaded": true,
-    "source_pbf": "/app/data/central-america-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\central-america-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\cam-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\cam-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -1502,10 +242,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\cam-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\cam-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 151735
+            "size": 152022
           },
           "header": {
             "boxes": [
@@ -1520,12 +260,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
+              "osmosis_replication_sequence_number": "4735",
+              "osmosis_replication_timestamp": "2026-03-21T21:21:30Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
+              "timestamp": "2026-03-21T21:21:30Z"
             }
           },
           "data": {
@@ -1537,15 +277,15 @@
             ],
             "timestamp": {
               "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
+              "last": "2026-03-21T15:17:39Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "241ade2a",
+            "crc32": "e92e7aae",
             "count": {
               "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
+              "nodes": 13865,
+              "ways": 963,
               "relations": 16
             },
             "minid": {
@@ -1556,13 +296,13 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
+              "nodes": 13667087776,
+              "ways": 1489000887,
               "relations": 20297396
             },
             "buffers": {
               "count": 22,
-              "size": 1280912,
+              "size": 1285888,
               "capacity": 1441792
             },
             "metadata": {
@@ -1587,7 +327,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\cam-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\cam-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -1595,647 +334,18 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\cam-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\cam-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\cam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "tileset": "/app/output/cam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/cam-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "tileset": "/app/output/cam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/cam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 151735
-          },
-          "header": {
-            "boxes": [
-              [
-                -99.82733,
-                3.283755,
-                -44.93667,
-                28.05483
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -91.5588166,
-              5.5423577,
-              -59.4704129,
-              26.6404521
-            ],
-            "timestamp": {
-              "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "241ade2a",
-            "count": {
-              "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
-              "relations": 16
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 26396351,
-              "ways": 23876196,
-              "relations": 3342714
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
-              "relations": 20297396
-            },
-            "buffers": {
-              "count": 21,
-              "size": 1162640,
-              "capacity": 1376256
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "tileset": "/app/output/cam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/cam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "tileset": "/app/output/cam-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/cam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/cam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 151735
-          },
-          "header": {
-            "boxes": [
-              [
-                -99.82733,
-                3.283755,
-                -44.93667,
-                28.05483
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -91.5588166,
-              5.5423577,
-              -59.4704129,
-              26.6404521
-            ],
-            "timestamp": {
-              "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "241ade2a",
-            "count": {
-              "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
-              "relations": 16
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 26396351,
-              "ways": 23876196,
-              "relations": 3342714
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
-              "relations": 20297396
-            },
-            "buffers": {
-              "count": 21,
-              "size": 1162640,
-              "capacity": 1376256
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/cam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 151735
-          },
-          "header": {
-            "boxes": [
-              [
-                -99.82733,
-                3.283755,
-                -44.93667,
-                28.05483
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -91.5588166,
-              5.5423577,
-              -59.4704129,
-              26.6404521
-            ],
-            "timestamp": {
-              "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "241ade2a",
-            "count": {
-              "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
-              "relations": 16
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 26396351,
-              "ways": 23876196,
-              "relations": 3342714
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
-              "relations": 20297396
-            },
-            "buffers": {
-              "count": 21,
-              "size": 1162640,
-              "capacity": 1376256
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/cam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 151735
-          },
-          "header": {
-            "boxes": [
-              [
-                -99.82733,
-                3.283755,
-                -44.93667,
-                28.05483
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -91.5588166,
-              5.5423577,
-              -59.4704129,
-              26.6404521
-            ],
-            "timestamp": {
-              "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "241ade2a",
-            "count": {
-              "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
-              "relations": 16
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 26396351,
-              "ways": 23876196,
-              "relations": 3342714
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
-              "relations": 20297396
-            },
-            "buffers": {
-              "count": 21,
-              "size": 1162640,
-              "capacity": 1376256
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/cam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 151735
-          },
-          "header": {
-            "boxes": [
-              [
-                -99.82733,
-                3.283755,
-                -44.93667,
-                28.05483
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -91.5588166,
-              5.5423577,
-              -59.4704129,
-              26.6404521
-            ],
-            "timestamp": {
-              "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "241ade2a",
-            "count": {
-              "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
-              "relations": 16
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 26396351,
-              "ways": 23876196,
-              "relations": 3342714
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
-              "relations": 20297396
-            },
-            "buffers": {
-              "count": 21,
-              "size": 1162640,
-              "capacity": 1376256
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/cam-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/cam-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/cam-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 151735
-          },
-          "header": {
-            "boxes": [
-              [
-                -99.82733,
-                3.283755,
-                -44.93667,
-                28.05483
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/central-america-updates",
-              "osmosis_replication_sequence_number": "4723",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -91.5588166,
-              5.5423577,
-              -59.4704129,
-              26.6404521
-            ],
-            "timestamp": {
-              "first": "2008-04-22T22:57:33Z",
-              "last": "2026-03-09T20:44:43Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "241ade2a",
-            "count": {
-              "changesets": 0,
-              "nodes": 13808,
-              "ways": 960,
-              "relations": 16
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 26396351,
-              "ways": 23876196,
-              "relations": 3342714
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630992506,
-              "ways": 1486430640,
-              "relations": 20297396
-            },
-            "buffers": {
-              "count": 21,
-              "size": 1162640,
-              "capacity": 1376256
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
   "eur": {
     "name": "Europe",
     "downloaded": true,
-    "source_pbf": "/app/data/europe-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\europe-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\eur-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\eur-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -2245,10 +355,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\eur-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\eur-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 12922367
+            "size": 12952350
           },
           "header": {
             "boxes": [
@@ -2263,12 +373,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
+              "osmosis_replication_sequence_number": "4732",
+              "osmosis_replication_timestamp": "2026-03-19T21:20:47Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
+              "timestamp": "2026-03-19T21:20:47Z"
             }
           },
           "data": {
@@ -2280,16 +390,16 @@
             ],
             "timestamp": {
               "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
+              "last": "2026-03-19T21:15:52Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "40ec830",
+            "crc32": "5cfa723e",
             "count": {
               "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
+              "nodes": 1355508,
+              "ways": 102113,
+              "relations": 1270
             },
             "minid": {
               "changesets": 0,
@@ -2299,14 +409,14 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
+              "nodes": 13663308446,
+              "ways": 1490811127,
               "relations": 20296977
             },
             "buffers": {
-              "count": 2089,
-              "size": 129156160,
-              "capacity": 136904704
+              "count": 2095,
+              "size": 129545296,
+              "capacity": 137297920
             },
             "metadata": {
               "all_objects": {
@@ -2330,7 +440,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\eur-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\eur-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -2338,647 +447,18 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\eur-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\eur-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\eur-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "tileset": "/app/output/eur-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/eur-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "tileset": "/app/output/eur-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/eur-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 12922367
-          },
-          "header": {
-            "boxes": [
-              [
-                -32.683233,
-                29.635548,
-                46.75348,
-                81.47299
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -28.6578061,
-              32.6405358,
-              46.6618289,
-              80.1638144
-            ],
-            "timestamp": {
-              "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "40ec830",
-            "count": {
-              "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 240463,
-              "ways": 2942909,
-              "relations": 11104
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
-              "relations": 20296977
-            },
-            "buffers": {
-              "count": 1916,
-              "size": 117522552,
-              "capacity": 125566976
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "tileset": "/app/output/eur-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/eur-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "tileset": "/app/output/eur-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/eur-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/eur-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 12922367
-          },
-          "header": {
-            "boxes": [
-              [
-                -32.683233,
-                29.635548,
-                46.75348,
-                81.47299
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -28.6578061,
-              32.6405358,
-              46.6618289,
-              80.1638144
-            ],
-            "timestamp": {
-              "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "40ec830",
-            "count": {
-              "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 240463,
-              "ways": 2942909,
-              "relations": 11104
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
-              "relations": 20296977
-            },
-            "buffers": {
-              "count": 1916,
-              "size": 117522552,
-              "capacity": 125566976
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/eur-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 12922367
-          },
-          "header": {
-            "boxes": [
-              [
-                -32.683233,
-                29.635548,
-                46.75348,
-                81.47299
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -28.6578061,
-              32.6405358,
-              46.6618289,
-              80.1638144
-            ],
-            "timestamp": {
-              "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "40ec830",
-            "count": {
-              "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 240463,
-              "ways": 2942909,
-              "relations": 11104
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
-              "relations": 20296977
-            },
-            "buffers": {
-              "count": 1916,
-              "size": 117522552,
-              "capacity": 125566976
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/eur-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 12922367
-          },
-          "header": {
-            "boxes": [
-              [
-                -32.683233,
-                29.635548,
-                46.75348,
-                81.47299
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -28.6578061,
-              32.6405358,
-              46.6618289,
-              80.1638144
-            ],
-            "timestamp": {
-              "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "40ec830",
-            "count": {
-              "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 240463,
-              "ways": 2942909,
-              "relations": 11104
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
-              "relations": 20296977
-            },
-            "buffers": {
-              "count": 1916,
-              "size": 117522552,
-              "capacity": 125566976
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/eur-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 12922367
-          },
-          "header": {
-            "boxes": [
-              [
-                -32.683233,
-                29.635548,
-                46.75348,
-                81.47299
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -28.6578061,
-              32.6405358,
-              46.6618289,
-              80.1638144
-            ],
-            "timestamp": {
-              "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "40ec830",
-            "count": {
-              "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 240463,
-              "ways": 2942909,
-              "relations": 11104
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
-              "relations": 20296977
-            },
-            "buffers": {
-              "count": 1916,
-              "size": 117522552,
-              "capacity": 125566976
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/eur-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/eur-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/eur-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 12922367
-          },
-          "header": {
-            "boxes": [
-              [
-                -32.683233,
-                29.635548,
-                46.75348,
-                81.47299
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/europe-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -28.6578061,
-              32.6405358,
-              46.6618289,
-              80.1638144
-            ],
-            "timestamp": {
-              "first": "2005-11-09T02:24:23Z",
-              "last": "2026-03-09T20:52:38Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "40ec830",
-            "count": {
-              "changesets": 0,
-              "nodes": 1351215,
-              "ways": 101715,
-              "relations": 1271
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 240463,
-              "ways": 2942909,
-              "relations": 11104
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13631016416,
-              "ways": 1486988199,
-              "relations": 20296977
-            },
-            "buffers": {
-              "count": 1916,
-              "size": 117522552,
-              "capacity": 125566976
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
   "afr": {
     "name": "Africa",
     "downloaded": true,
-    "source_pbf": "/app/data/africa-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\africa-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\afr-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\afr-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -2988,10 +468,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\afr-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\afr-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 1313900
+            "size": 1314590
           },
           "header": {
             "boxes": [
@@ -3006,12 +486,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
+              "osmosis_replication_sequence_number": "4734",
+              "osmosis_replication_timestamp": "2026-03-21T21:21:30Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
+              "timestamp": "2026-03-21T21:21:30Z"
             }
           },
           "data": {
@@ -3023,15 +503,15 @@
             ],
             "timestamp": {
               "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
+              "last": "2026-03-21T14:43:11Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "31fc0a01",
+            "crc32": "3281ccf1",
             "count": {
               "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
+              "nodes": 153756,
+              "ways": 10824,
               "relations": 45
             },
             "minid": {
@@ -3042,13 +522,13 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
+              "nodes": 13666994982,
+              "ways": 1491139434,
               "relations": 20160052
             },
             "buffers": {
               "count": 218,
-              "size": 13841664,
+              "size": 13845680,
               "capacity": 14286848
             },
             "metadata": {
@@ -3073,7 +553,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\afr-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\afr-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -3081,647 +560,18 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\afr-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\afr-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\afr-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "tileset": "/app/output/afr-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/afr-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "tileset": "/app/output/afr-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/afr-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 1313900
-          },
-          "header": {
-            "boxes": [
-              [
-                -27.262032,
-                -60.3167,
-                66.7227659,
-                37.77817
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -25.032076,
-              -49.5,
-              63.4422845,
-              37.3133966
-            ],
-            "timestamp": {
-              "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "31fc0a01",
-            "count": {
-              "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
-              "relations": 45
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 20712890,
-              "ways": 4262778,
-              "relations": 2035002
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
-              "relations": 20160052
-            },
-            "buffers": {
-              "count": 200,
-              "size": 12525040,
-              "capacity": 13107200
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "tileset": "/app/output/afr-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/afr-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "tileset": "/app/output/afr-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/afr-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/afr-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 1313900
-          },
-          "header": {
-            "boxes": [
-              [
-                -27.262032,
-                -60.3167,
-                66.7227659,
-                37.77817
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -25.032076,
-              -49.5,
-              63.4422845,
-              37.3133966
-            ],
-            "timestamp": {
-              "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "31fc0a01",
-            "count": {
-              "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
-              "relations": 45
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 20712890,
-              "ways": 4262778,
-              "relations": 2035002
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
-              "relations": 20160052
-            },
-            "buffers": {
-              "count": 200,
-              "size": 12525040,
-              "capacity": 13107200
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/afr-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 1313900
-          },
-          "header": {
-            "boxes": [
-              [
-                -27.262032,
-                -60.3167,
-                66.7227659,
-                37.77817
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -25.032076,
-              -49.5,
-              63.4422845,
-              37.3133966
-            ],
-            "timestamp": {
-              "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "31fc0a01",
-            "count": {
-              "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
-              "relations": 45
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 20712890,
-              "ways": 4262778,
-              "relations": 2035002
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
-              "relations": 20160052
-            },
-            "buffers": {
-              "count": 200,
-              "size": 12525040,
-              "capacity": 13107200
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/afr-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 1313900
-          },
-          "header": {
-            "boxes": [
-              [
-                -27.262032,
-                -60.3167,
-                66.7227659,
-                37.77817
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -25.032076,
-              -49.5,
-              63.4422845,
-              37.3133966
-            ],
-            "timestamp": {
-              "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "31fc0a01",
-            "count": {
-              "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
-              "relations": 45
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 20712890,
-              "ways": 4262778,
-              "relations": 2035002
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
-              "relations": 20160052
-            },
-            "buffers": {
-              "count": 200,
-              "size": 12525040,
-              "capacity": 13107200
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/afr-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 1313900
-          },
-          "header": {
-            "boxes": [
-              [
-                -27.262032,
-                -60.3167,
-                66.7227659,
-                37.77817
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -25.032076,
-              -49.5,
-              63.4422845,
-              37.3133966
-            ],
-            "timestamp": {
-              "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "31fc0a01",
-            "count": {
-              "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
-              "relations": 45
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 20712890,
-              "ways": 4262778,
-              "relations": 2035002
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
-              "relations": 20160052
-            },
-            "buffers": {
-              "count": 200,
-              "size": 12525040,
-              "capacity": 13107200
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/afr-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/afr-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/afr-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 1313900
-          },
-          "header": {
-            "boxes": [
-              [
-                -27.262032,
-                -60.3167,
-                66.7227659,
-                37.77817
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/africa-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -25.032076,
-              -49.5,
-              63.4422845,
-              37.3133966
-            ],
-            "timestamp": {
-              "first": "2007-08-13T09:56:34Z",
-              "last": "2026-03-09T05:31:18Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "31fc0a01",
-            "count": {
-              "changesets": 0,
-              "nodes": 153712,
-              "ways": 10821,
-              "relations": 45
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 20712890,
-              "ways": 4262778,
-              "relations": 2035002
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13629181099,
-              "ways": 1486778208,
-              "relations": 20160052
-            },
-            "buffers": {
-              "count": 200,
-              "size": 12525040,
-              "capacity": 13107200
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
   "asi": {
     "name": "Asia",
     "downloaded": true,
-    "source_pbf": "/app/data/asia-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\asia-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\asi-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\asi-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -3731,10 +581,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\asi-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\asi-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 8219696
+            "size": 8299561
           },
           "header": {
             "boxes": [
@@ -3749,12 +599,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
+              "osmosis_replication_sequence_number": "4734",
+              "osmosis_replication_timestamp": "2026-03-21T21:21:30Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
+              "timestamp": "2026-03-21T21:21:30Z"
             }
           },
           "data": {
@@ -3766,16 +616,16 @@
             ],
             "timestamp": {
               "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
+              "last": "2026-03-21T20:52:29Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "f4975d58",
+            "crc32": "a4aa416c",
             "count": {
               "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
+              "nodes": 1001005,
+              "ways": 63465,
+              "relations": 934
             },
             "minid": {
               "changesets": 0,
@@ -3785,14 +635,14 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
+              "nodes": 13667787362,
+              "ways": 1491336043,
+              "relations": 20359719
             },
             "buffers": {
-              "count": 1508,
-              "size": 95867616,
-              "capacity": 99418112
+              "count": 1520,
+              "size": 96918016,
+              "capacity": 100204544
             },
             "metadata": {
               "all_objects": {
@@ -3816,7 +666,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\asi-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\asi-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -3824,647 +673,18 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\asi-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\asi-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\asi-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "tileset": "/app/output/asi-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/asi-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "tileset": "/app/output/asi-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/asi-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 8219696
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -13.01165,
-                180.0,
-                84.52666
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              -10.977721,
-              179.2190431,
-              81.1813147
-            ],
-            "timestamp": {
-              "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "f4975d58",
-            "count": {
-              "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 14382018,
-              "ways": 4527715,
-              "relations": 184888
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
-            },
-            "buffers": {
-              "count": 1378,
-              "size": 87442456,
-              "capacity": 90898432
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "tileset": "/app/output/asi-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/asi-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "tileset": "/app/output/asi-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/asi-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/asi-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 8219696
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -13.01165,
-                180.0,
-                84.52666
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              -10.977721,
-              179.2190431,
-              81.1813147
-            ],
-            "timestamp": {
-              "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "f4975d58",
-            "count": {
-              "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 14382018,
-              "ways": 4527715,
-              "relations": 184888
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
-            },
-            "buffers": {
-              "count": 1378,
-              "size": 87442456,
-              "capacity": 90898432
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/asi-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 8219696
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -13.01165,
-                180.0,
-                84.52666
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              -10.977721,
-              179.2190431,
-              81.1813147
-            ],
-            "timestamp": {
-              "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "f4975d58",
-            "count": {
-              "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 14382018,
-              "ways": 4527715,
-              "relations": 184888
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
-            },
-            "buffers": {
-              "count": 1378,
-              "size": 87442456,
-              "capacity": 90898432
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/asi-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 8219696
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -13.01165,
-                180.0,
-                84.52666
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              -10.977721,
-              179.2190431,
-              81.1813147
-            ],
-            "timestamp": {
-              "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "f4975d58",
-            "count": {
-              "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 14382018,
-              "ways": 4527715,
-              "relations": 184888
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
-            },
-            "buffers": {
-              "count": 1378,
-              "size": 87442456,
-              "capacity": 90898432
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/asi-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 8219696
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -13.01165,
-                180.0,
-                84.52666
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              -10.977721,
-              179.2190431,
-              81.1813147
-            ],
-            "timestamp": {
-              "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "f4975d58",
-            "count": {
-              "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 14382018,
-              "ways": 4527715,
-              "relations": 184888
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
-            },
-            "buffers": {
-              "count": 1378,
-              "size": 87442456,
-              "capacity": 90898432
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/asi-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/asi-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/asi-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 8219696
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -13.01165,
-                180.0,
-                84.52666
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/asia-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -178.4767436,
-              -10.977721,
-              179.2190431,
-              81.1813147
-            ],
-            "timestamp": {
-              "first": "2007-03-16T23:50:59Z",
-              "last": "2026-03-09T18:26:07Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "f4975d58",
-            "count": {
-              "changesets": 0,
-              "nodes": 989600,
-              "ways": 62618,
-              "relations": 927
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 14382018,
-              "ways": 4527715,
-              "relations": 184888
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13630538592,
-              "ways": 1486935539,
-              "relations": 20291689
-            },
-            "buffers": {
-              "count": 1378,
-              "size": 87442456,
-              "capacity": 90898432
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
   "aoc": {
     "name": "Australia and Oceania",
     "downloaded": true,
-    "source_pbf": "/app/data/australia-oceania-latest.osm.pbf",
+    "source_pbf": "./scripts/osm_extract/data\\australia-oceania-latest.osm.pbf",
     "processes": [
       {
         "type": "military",
-        "output_file": "output\\aoc-military.osm.pbf",
+        "output_file": "./scripts/osm_extract/output\\aoc-military.osm.pbf",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -4474,10 +694,10 @@
         "success": true,
         "fileinfo": {
           "file": {
-            "name": "output\\aoc-military.osm.pbf",
+            "name": "./scripts/osm_extract/output\\aoc-military.osm.pbf",
             "format": "PBF",
             "compression": "none",
-            "size": 378904
+            "size": 380012
           },
           "header": {
             "boxes": [
@@ -4492,12 +712,12 @@
             "option": {
               "generator": "osmium/1.16.0",
               "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
+              "osmosis_replication_sequence_number": "4734",
+              "osmosis_replication_timestamp": "2026-03-21T21:21:30Z",
               "pbf_dense_nodes": "true",
               "pbf_optional_feature_0": "Sort.Type_then_ID",
               "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
+              "timestamp": "2026-03-21T21:21:30Z"
             }
           },
           "data": {
@@ -4509,14 +729,14 @@
             ],
             "timestamp": {
               "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
+              "last": "2026-03-17T05:48:24Z"
             },
             "objects_ordered": true,
             "multiple_versions": false,
-            "crc32": "32ebe9ad",
+            "crc32": "ada3fee4",
             "count": {
               "changesets": 0,
-              "nodes": 44147,
+              "nodes": 44316,
               "ways": 2133,
               "relations": 55
             },
@@ -4528,13 +748,13 @@
             },
             "maxid": {
               "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
+              "nodes": 13654014353,
+              "ways": 1487753244,
               "relations": 19985991
             },
             "buffers": {
               "count": 66,
-              "size": 4069136,
+              "size": 4082880,
               "capacity": 4325376
             },
             "metadata": {
@@ -4559,7 +779,6 @@
       {
         "type": "military",
         "output_file": "./scripts/osm_extract/output\\aoc-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\aoc-military.mbtiles",
         "filter_tags": [
           "w/landuse=military",
           "n/military",
@@ -4567,657 +786,20 @@
           "r/military"
         ],
         "success": false,
-        "error": "osmium export failed with code 2 for ./scripts/osm_extract/output\\aoc-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "./scripts/osm_extract/output\\aoc-military.osm.pbf",
-        "tileset": "./scripts/osm_extract/output\\aoc-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "[WinError 2] The system cannot find the file specified"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "tileset": "/app/output/aoc-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "osmium export failed with code 1 for /app/output/aoc-military.osm.pbf"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "tileset": "/app/output/aoc-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/aoc-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 378904
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -57.16482,
-                180.0,
-                26.27781
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -175.203529,
-              -46.6125349,
-              179.4008961,
-              19.3166142
-            ],
-            "timestamp": {
-              "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "32ebe9ad",
-            "count": {
-              "changesets": 0,
-              "nodes": 44147,
-              "ways": 2133,
-              "relations": 55
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 13808858,
-              "ways": 4333824,
-              "relations": 172053
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
-              "relations": 19985991
-            },
-            "buffers": {
-              "count": 59,
-              "size": 3698456,
-              "capacity": 3866624
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "tileset": "/app/output/aoc-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/aoc-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "tileset": "/app/output/aoc-military.mbtiles",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/aoc-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/aoc-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 378904
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -57.16482,
-                180.0,
-                26.27781
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -175.203529,
-              -46.6125349,
-              179.4008961,
-              19.3166142
-            ],
-            "timestamp": {
-              "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "32ebe9ad",
-            "count": {
-              "changesets": 0,
-              "nodes": 44147,
-              "ways": 2133,
-              "relations": 55
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 13808858,
-              "ways": 4333824,
-              "relations": 172053
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
-              "relations": 19985991
-            },
-            "buffers": {
-              "count": 59,
-              "size": 3698456,
-              "capacity": 3866624
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/aoc-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 378904
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -57.16482,
-                180.0,
-                26.27781
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -175.203529,
-              -46.6125349,
-              179.4008961,
-              19.3166142
-            ],
-            "timestamp": {
-              "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "32ebe9ad",
-            "count": {
-              "changesets": 0,
-              "nodes": 44147,
-              "ways": 2133,
-              "relations": 55
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 13808858,
-              "ways": 4333824,
-              "relations": 172053
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
-              "relations": 19985991
-            },
-            "buffers": {
-              "count": 59,
-              "size": 3698456,
-              "capacity": 3866624
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/aoc-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 378904
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -57.16482,
-                180.0,
-                26.27781
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.16.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -175.203529,
-              -46.6125349,
-              179.4008961,
-              19.3166142
-            ],
-            "timestamp": {
-              "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "32ebe9ad",
-            "count": {
-              "changesets": 0,
-              "nodes": 44147,
-              "ways": 2133,
-              "relations": 55
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 13808858,
-              "ways": 4333824,
-              "relations": 172053
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
-              "relations": 19985991
-            },
-            "buffers": {
-              "count": 59,
-              "size": 3698456,
-              "capacity": 3866624
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/aoc-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 378904
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -57.16482,
-                180.0,
-                26.27781
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -175.203529,
-              -46.6125349,
-              179.4008961,
-              19.3166142
-            ],
-            "timestamp": {
-              "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "32ebe9ad",
-            "count": {
-              "changesets": 0,
-              "nodes": 44147,
-              "ways": 2133,
-              "relations": 55
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 13808858,
-              "ways": 4333824,
-              "relations": 172053
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
-              "relations": 19985991
-            },
-            "buffers": {
-              "count": 59,
-              "size": 3698456,
-              "capacity": 3866624
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": false,
-        "error": "tippecanoe failed with code 1 for /app/output/aoc-military.mbtiles.geojson.tmp"
-      },
-      {
-        "type": "military",
-        "output_file": "/app/output/aoc-military.osm.pbf",
-        "filter_tags": [
-          "w/landuse=military",
-          "n/military",
-          "w/military",
-          "r/military"
-        ],
-        "success": true,
-        "fileinfo": {
-          "file": {
-            "name": "/app/output/aoc-military.osm.pbf",
-            "format": "PBF",
-            "compression": "none",
-            "size": 378904
-          },
-          "header": {
-            "boxes": [
-              [
-                -180.0,
-                -57.16482,
-                180.0,
-                26.27781
-              ]
-            ],
-            "with_history": false,
-            "option": {
-              "generator": "osmium/1.18.0",
-              "osmosis_replication_base_url": "https://download.geofabrik.de/australia-oceania-updates",
-              "osmosis_replication_sequence_number": "4722",
-              "osmosis_replication_timestamp": "2026-03-09T21:20:26Z",
-              "pbf_dense_nodes": "true",
-              "pbf_optional_feature_0": "Sort.Type_then_ID",
-              "sorting": "Type_then_ID",
-              "timestamp": "2026-03-09T21:20:26Z"
-            }
-          },
-          "data": {
-            "bbox": [
-              -175.203529,
-              -46.6125349,
-              179.4008961,
-              19.3166142
-            ],
-            "timestamp": {
-              "first": "2007-07-10T14:30:47Z",
-              "last": "2026-03-08T12:49:06Z"
-            },
-            "objects_ordered": true,
-            "multiple_versions": false,
-            "crc32": "32ebe9ad",
-            "count": {
-              "changesets": 0,
-              "nodes": 44147,
-              "ways": 2133,
-              "relations": 55
-            },
-            "minid": {
-              "changesets": 0,
-              "nodes": 13808858,
-              "ways": 4333824,
-              "relations": 172053
-            },
-            "maxid": {
-              "changesets": 0,
-              "nodes": 13620580729,
-              "ways": 1485735928,
-              "relations": 19985991
-            },
-            "buffers": {
-              "count": 59,
-              "size": 3698456,
-              "capacity": 3866624
-            },
-            "metadata": {
-              "all_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              },
-              "some_objects": {
-                "version": true,
-                "timestamp": true,
-                "changeset": false,
-                "user": false,
-                "uid": false
-              }
-            }
-          }
-        }
+        "error": "tippecanoe not found. Install it (e.g. https://github.com/felt/tippecanoe) and add to PATH, or set TIPPECANOE_PATH to the full path to tippecanoe."
       }
     ]
   },
-  "meta": {
-    "generated_at": "2026-03-12T01:45:03.325144Z",
-    "base_url": "https://download.geofabrik.de",
-    "download_dir": "/app/data",
-    "output_dir": "/app/output"
-  },
   "global": {
-    "merged_from": [
-      "afr",
-      "aoc",
-      "asi",
-      "cam",
-      "eur",
-      "nam",
-      "sam"
-    ],
-    "tiles_dir": "/app/output/tiles",
-    "mbtiles": "/app/output/global-military.mbtiles",
-    "success": true
+    "merged_from": [],
+    "tiles_dir": "./scripts/osm_extract/output\\tiles",
+    "success": false,
+    "error": "No regional military PBFs to merge"
+  },
+  "meta": {
+    "generated_at": "2026-03-22T10:40:49.754707Z",
+    "base_url": "https://download.geofabrik.de",
+    "download_dir": "./scripts/osm_extract/data",
+    "output_dir": "./scripts/osm_extract/output"
   }
 }
