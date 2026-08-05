@@ -2,8 +2,6 @@
 
 <img width="2155" height="432" alt="image" src="https://github.com/user-attachments/assets/2d4a5912-220a-4b04-87c5-dd6e6ef239cd" />
 
-<img width="1887" height="1227" alt="image" src="https://github.com/user-attachments/assets/653076ba-b54e-4f3a-863e-b4910493e539" />
-
 Global military areas extracted from [OpenStreetMap](https://www.openstreetmap.org/) as Mapbox Vector Tiles.
 
 Feel free to download and host the tiles yourself, or load them directly from the CDN URL below.
