@@ -1,10 +1,10 @@
 # Global Military Areas
 
-<img width="2155" height="432" alt="image" src="https://github.com/user-attachments/assets/2d4a5912-220a-4b04-87c5-dd6e6ef239cd" />
-
 Global military areas extracted from [OpenStreetMap](https://www.openstreetmap.org/) as Mapbox Vector Tiles.
 
 Feel free to download and host the tiles yourself, or load them directly from the CDN URL below.
+
+<img width="2155" height="432" alt="image" src="https://github.com/user-attachments/assets/2d4a5912-220a-4b04-87c5-dd6e6ef239cd" />
 
 ## Usage
 
