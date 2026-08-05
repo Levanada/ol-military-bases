@@ -6,7 +6,7 @@ Global dataset of military areas extracted from [OpenStreetMaps](https://www.ope
 - Mapbox vector tiles
 - Gzip-Compressed
 - Zoom levels 0-11
-- Generated `2026-03-09`
+- Generated `03-09-2026`
 
 Example: `https://cdn.jsdelivr.net/gh/Levanada/ol-military-bases@main/tiles/{z}/{x}/{y}.pbf`
 
