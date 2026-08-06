@@ -4,6 +4,9 @@ Global military areas extracted from [OpenStreetMap](https://www.openstreetmap.o
 
 Feel free to download and host the tiles yourself, or load them directly from the CDN URL below.
 
+## Live Example
+[CDGIS](https://cdgis.com/?layers=global-military-bases&lng=-116.551137&lat=37.330197&zoom=7.85&bearing=0.00&pitch=0.00&style=dark&terrain=0)
+
 <img width="2155" height="432" alt="image" src="https://github.com/user-attachments/assets/2d4a5912-220a-4b04-87c5-dd6e6ef239cd" />
 
 ## Usage
