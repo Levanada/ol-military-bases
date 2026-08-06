@@ -25,11 +25,8 @@ Compatible with MapLibre GL, Mapbox GL, OpenLayers, deck.gl `MVTLayer`, and othe
 > **Note:** Tiles are gzip-compressed. Many CDNs (including jsDelivr) serve the raw gzip bytes without a `Content-Encoding: gzip` header. Clients must decompress before parsing, or configure their tile server to advertise gzip encoding.
 
 ## r12 Changes
-
-| | |
-| --- | --- |
-| **Zoom** | Max zoom is now 14, from 13. |
-| **Generated** | Data is effectively valid per 08/05/2026 |
+- Increased maximum zoom from 13 to 14.
+- Data generated/validated on 2026-08-05.
 
 ## Specs
 
