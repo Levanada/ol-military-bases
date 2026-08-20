@@ -1,6 +1,6 @@
 # Global Military Areas
 
-## [Live Example](https://cdgis.com/?layers=global-military-bases&lng=-116.551137&lat=37.330197&zoom=7.85&bearing=0.00&pitch=0.00&style=dark&terrain=0)
+## [Live Example](https://cdgis.com/map?layers=global-military-bases&lng=-116.551137&lat=37.330197&zoom=7.85&bearing=0.00&pitch=0.00&style=dark&terrain=0)
 
 Global military areas extracted from [OpenStreetMap](https://www.openstreetmap.org/) as Mapbox Vector Tiles.
 
